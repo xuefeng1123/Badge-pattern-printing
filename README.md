@@ -11,6 +11,9 @@ This code is used to generate an A4 size PDF that draws all the badges that need
 
 ![image](https://user-images.githubusercontent.com/42110276/170017483-685df94b-e80d-4c59-925d-2eba1684d812.png)
 
+多页：
+![image](https://user-images.githubusercontent.com/42110276/170028663-f4ba4be2-4840-4952-8242-f638424e4886.png)
+
 使用的库：
 PIL，reportlab
 
@@ -36,6 +39,4 @@ size = 70  # mm
 
 把打印的图片都丢到Images文件夹就行，代码会调整形状大小。
 
-**注意： 实测用A4打出来的话有1-2mm的误差，可以自己调整地大1,2mm，用切圆机切下不影响。
-暂时不能多打，基本上最多6个图吧，后面会补上PDF翻页的代码（逃
-**
+**注意： 实测用A4打出来的话有1-2mm的误差，可以自己调整地大1,2mm，用切圆机切下不影响。**
