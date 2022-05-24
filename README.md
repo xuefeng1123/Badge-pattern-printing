@@ -19,13 +19,9 @@ PIL，reportlab
 
 纸张的参数在这里改：
 ```
-paper_h = 279
-paper_w = 210
+paper_type = reportlab.lib.pagesizes.A4
 ```
-和
-```
-canvas = Canvas('baji.pdf', pagesize=A4)
-```
+
 
 吧唧尺寸的参数在这里改：
 ```
